@@ -1,43 +1,78 @@
-# Thomas Bateman · DOMINUS AXIS
+# Thomas Bateman
 
-> Building agentic AI systems that plan, execute, and audit their own work.
+**Senior engineer. Builder of agentic AI systems.**
 
-🌐 **[dominusaxis.com](https://dominusaxis.com)** · ✉️ admin@dominusaxis.com
+Founder of **[DOMINUS AXIS](https://dominusaxis.com)** — a production platform for autonomous revenue operations, security auditing, and agentic trading. Available for contract work.
 
-## What I'm building
+- Website — [dominusaxis.com](https://dominusaxis.com)
+- Contact — admin@dominusaxis.com
 
-**DOMINUS AXIS** is a production agentic platform with four running subsystems:
+---
 
-- **Signal Engine** — LightGBM + XGBoost + Optuna across 25 crypto markets, 128 trained models, live accuracy scoring
-- **Command Center** — admin control room, 52 microservices, 10-layer memory, tiered-LLM cost router
-- **APEX Agent** — 1,026 tool functions across 258 files, 47 modes, multi-agent DAG orchestrator
-- **Bounty Hunter** — ML-powered security scanner (Slither, Semgrep, Mythril, Claude deep-review) for smart contracts and general code
+## About
 
-~154,000 lines of Python, running under nginx + systemd on a hardened OCI instance.
+I build software that thinks before it acts. Most of my recent work is around **agents with real memory** — systems that plan, execute tools, remember past decisions, and learn from their failures across sessions. The stack runs in production today, serves real users, and generates real revenue.
 
-## The 10-layer memory stack
+I care about three things in everything I ship:
+1. **Observability** — if it breaks, I can see why in under a minute
+2. **Security** — every merge is scanned; secrets stay out of git
+3. **Cost discipline** — tiered LLM routing, aggressive caching, no wasted cycles
 
-Agents stay coherent across long-running workflows by injecting compact slices of ten memory layers into every LLM call:
+---
 
-| Layer | Purpose |
+## Services
+
+Offered on a fixed-price or monthly-retainer basis. Full proposals turned around in 24 hours.
+
+| Service | What you get |
 |---|---|
-| L1 Chat history · L2 Action log · L3 Session | Short-term conversational + operational state |
-| L4 Neural DB · L5 Intelligence registry | Semantic vector search + ML model metadata |
-| L6 Pattern DB · L7 Execution KB | Learned patterns + static/learned procedures |
-| L8 Compressor · L9 Failure bridge | Digests + lessons from past failures |
-| L10 Project state | Active goals, milestones, revenue targets |
+| **Smart-contract security audits** | Slither + Semgrep + Mythril + Claude deep-review pipeline. Triaged findings, PoCs for CRITICAL/HIGH, remediation plan. Typical turnaround: 48–72 hours per codebase. |
+| **Custom AI agents** | Task-driven agents built on tiered-LLM routing (Haiku → Sonnet → Opus) with 10-layer persistent memory. Tool framework, action logs, failure recovery, neural-DB semantic search. |
+| **ML anomaly detection** | Train LightGBM / XGBoost classifiers on your data with Optuna tuning. Calibrated probabilities, feature-importance analysis, live scoring endpoints. |
+| **Full-stack AI applications** | FastAPI backend + React/Ionic frontend + Claude/Groq integration. JWT auth, rate limiting, structured logging, production infrastructure. |
+| **Autonomous revenue systems** | Signal engines, lead-scoring agents, monitoring and alerting, recurring revenue optimization. Built to run unattended. |
+| **Code auditing and refactoring** | Full repository scans for security, architectural debt, dead code, dependency risk. Delivered as a triaged report with fix priorities. |
 
-## Current focus
+---
 
-- Autonomous revenue engine (trading signals → SaaS → bounty hunting)
-- Agentic invoicing Co-Pilot (see my [GovtInvoice proposal](https://github.com/seetadev/GovtInvoice/issues/37))
-- ERC-8004 + x402 + MPP payment-protocol adapters
-- Multi-chain (Optimism, Base, Ethereum, Starknet) via viem/wagmi
+## Experience
+
+**Founder, DOMINUS AXIS** — 2025 to present
+Designed and shipped an end-to-end agentic AI platform across four subsystems:
+
+- **Signal engine** — real-time classification across 25 crypto markets, 128 trained and calibrated models, live accuracy scoring, sub-second inference
+- **Command center** — admin control room, 52 microservices, tiered-LLM cost router, 10-layer memory stack for long-horizon workflows
+- **APEX agent** — 47 execution modes, over 1,000 tool functions, multi-agent DAG orchestrator, autonomous revenue loops
+- **Bounty hunter** — ML-powered smart-contract scanner combining static, symbolic, and LLM-based review; produces submission-ready reports
+
+Running in production on hardened infrastructure with TLS, rate limiting, audit logging, and automated retraining.
+
+**Selected independent work**
+
+- `stash-plex-bridge` — one-command Windows installer for three production media-server plugins. Public, maintained.
+- Security pre-audits for open-source projects via the Bounty Hunter pipeline — example engagements visible in issue threads on request.
+
+---
 
 ## Stack
 
-Python · FastAPI · React · Ionic · TypeScript · SQLite · Postgres · nginx · systemd · LightGBM · XGBoost · Claude (Opus/Sonnet/Haiku) · Groq · Solidity · viem
+**Languages** — Python, TypeScript, JavaScript, Solidity
+**Backend** — FastAPI, Uvicorn, SQLite, Postgres
+**Frontend** — React, Ionic, Capacitor, Tailwind, Vite
+**ML** — LightGBM, XGBoost, Optuna, scikit-learn, sentence-transformers
+**AI / LLM** — Claude (Opus, Sonnet, Haiku), Groq, tiered routing, prompt caching, semantic memory
+**Web3** — viem, wagmi, multi-chain (Optimism, Base, Ethereum, Starknet), IPFS / Filecoin / Storacha
+**Security tooling** — Slither, Semgrep, Mythril, custom regex + AST scanners
+**Infrastructure** — nginx, systemd, Let's Encrypt, Docker, OCI, GitHub Actions
 
-## Contact
+---
 
-For collaboration, contract work, or security audits — **admin@dominusaxis.com**.
+## Open for
+
+- Contract engineering — smart-contract audits, ML integrations, full-stack AI features
+- Security pre-audits — free 30-minute scan of your repository, triaged findings delivered in under 3 hours
+- Advisory — agent architecture, tiered-LLM cost optimization, autonomous-system design
+- Partnerships on agentic products with revenue or funding already in place
+
+**Email — admin@dominusaxis.com**
+**Site — [dominusaxis.com](https://dominusaxis.com)**

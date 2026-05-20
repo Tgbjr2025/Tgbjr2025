@@ -2,10 +2,7 @@
 
 **Senior engineer. Builder of agentic AI systems.**
 
-Founder of **[DOMINUS AXIS](https://dominusaxis.com)** — a production platform for autonomous revenue operations, security auditing, and agentic trading. Available for contract work.
-
-- Website — [dominusaxis.com](https://dominusaxis.com)
-- Contact — admin@dominusaxis.com
+Available for contract work.
 
 ---
 
@@ -37,7 +34,7 @@ Offered on a fixed-price or monthly-retainer basis. Full proposals turned around
 
 ## Experience
 
-**Founder, DOMINUS AXIS** — 2025 to present
+**Independent Engineering** — 2025 to present
 Designed and shipped an end-to-end agentic AI platform across four subsystems:
 
 - **Signal engine** — real-time classification across 25 crypto markets, 128 trained and calibrated models, live accuracy scoring, sub-second inference
@@ -50,6 +47,7 @@ Running in production on hardened infrastructure with TLS, rate limiting, audit 
 **Selected independent work**
 
 - `stash-plex-bridge` — one-command Windows installer for three production media-server plugins. Public, maintained.
+- `open-grind` — contributor: bug fixes, feature implementations, test suite. See [github.com/Tgbjr2025/open-grind](https://github.com/Tgbjr2025/open-grind).
 - Security pre-audits for open-source projects via the Bounty Hunter pipeline — example engagements visible in issue threads on request.
 
 ---
@@ -73,6 +71,3 @@ Running in production on hardened infrastructure with TLS, rate limiting, audit 
 - Security pre-audits — free 30-minute scan of your repository, triaged findings delivered in under 3 hours
 - Advisory — agent architecture, tiered-LLM cost optimization, autonomous-system design
 - Partnerships on agentic products with revenue or funding already in place
-
-**Email — admin@dominusaxis.com**
-**Site — [dominusaxis.com](https://dominusaxis.com)**
